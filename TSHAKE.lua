@@ -2566,17 +2566,17 @@ moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
-if text == 'هاي' then
+if text == 'انلاینی' then
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = "• هَٰہۧـاَٰيَٰـﮧﮧاَٰتّٰ يَٰـرِٰوٍّحٌٰـہيَٰ 🙋🏼‍♂💙ֆ"
+moody = "•خایمالی ؟ֆ"
 else
 moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
-if text == 'بوت' then
+if text == 'ربات' then
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = "• تّٰفِٰـضـﮧلْٰ حٌٰبٌِٰـہيَٰ 🌚💫ֆ"
+moody = "• ناموسن ولم کن خستمֆ"
 else
 moody = ''
 end
